@@ -20,15 +20,15 @@
 .nav {
     display: grid;
     grid-template: 20% 40% 40%/repeat(4, 1fr);
-    
-    
+
+
 }
 
 #main_back {
-grid-area: 1 / 1 / 4 / 5;
-border-radius: 50px;
-justify-self: center;
-width: 100%;
+    grid-area: 1 / 1 / 4 / 5;
+    border-radius: 50px;
+    justify-self: center;
+    width: 100%;
 }
 
 #C {
@@ -50,25 +50,25 @@ width: 100%;
 #S {
     grid-area: 2 / 2 / span 1 / span 1;
     position: relative;
-    top:50%;
+    top: 50%;
     left: 40%;
     font-size: 1vw;
 
 }
 
 .registration {
-grid-area: 1 /4 / 2/ 5;
-position: relative;
-top: 25%;
-margin-left: 30px;
-font-size: 1.5vw;
+    grid-area: 1 /4 / 2/ 5;
+    position: relative;
+    top: 25%;
+    margin-left: 30px;
+    font-size: 1.5vw;
 }
 
 .logo {
     font-weight: bold;
     grid-area: 1 / 1 /2 /2;
-margin-right: 50px;
-padding-left: 30px;
+    margin-right: 50px;
+    padding-left: 30px;
     font-family: 'Pacifico', cursive;
     font-size: 2.7vw;
     position: relative;
@@ -91,12 +91,10 @@ div.four {
 
 main {
     display: grid;
-    grid-template: 30% 35% 30% 5%/ 20% 45% 30% 5%; 
+    grid-template: 30% 35% 30% 5%/ 20% 45% 30% 5%;
     background-color: rgb(245, 243, 240);
     width: 100%;
     grid-column-gap: 40px;
-
-
 
 
 }
@@ -125,20 +123,20 @@ main {
     grid-template: 40% 40% 10% 10% / 50% 50;
 
 
-
 }
 
 .bowl_text h4 {
     font-size: 15px;
     color: grey;
-    display: inline-block;}
+    display: inline-block;
+}
 
-    
+
 .bowl_text h3 {
     font-size: 15px;
     color: grey;
     display: inline-block;
-    
+
 }
 
 .black {
@@ -172,7 +170,7 @@ main {
     align-self: center;
     margin-top: 20px;
 
-   
+
 }
 
 .nav_food h3 {
@@ -182,7 +180,7 @@ main {
     text-align: start;
     font-size: 15px;
     border-radius: 15px;
- 
+
 }
 
 .cook_time {
